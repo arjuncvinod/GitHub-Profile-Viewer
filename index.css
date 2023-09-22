@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    padding: 3%;
+    background-color: rgb(25, 21, 21);
+}
+form{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+input{
+    width: 50%;
+    min-width: 200px;
+    height: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    outline: blueviolet;
+    border: none;
+}
+.img-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+h2{
+    color:gray;
+}
+main p{
+    text-align: center;
+    color: gray;
+    margin: 5px 0;
+}
+.repos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+    justify-content: center ;
+}
+.repo{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    max-width: 300px;
+    max-height: 150px;
+    padding: 10px;
+    gap: 10px;
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.522);
+    border-radius: 5px;
+    border: 1px solid white;
+    flex-grow: 1;
+
+}
+.repo p{
+    height:80px ;
+    overflow-y: scroll;
+    color: gray;
+    text-align: left;
+
+}
+.repo p::-webkit-scrollbar{
+    display: none;
+}
+.repo h2{
+    font-size: 26px;
+    color: blueviolet;
+}
+.star-fork-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    color: blueviolet;
+}
