@@ -65,7 +65,11 @@ main p{
     border-radius: 5px;
     border: 1px solid white;
     flex-grow: 1;
+    transition: .1s;
 
+}
+.repo:hover{
+    box-shadow: 0px 0px 50px blueviolet;
 }
 .repo p{
     height:80px ;
