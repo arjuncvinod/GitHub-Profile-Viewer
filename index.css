@@ -58,7 +58,7 @@ main p{
     flex-direction: column;
     /* border: 1px solid black; */
     max-width: 300px;
-    max-height: 150px;
+    max-height: 200px;
     padding: 10px;
     gap: 10px;
     box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.522);
@@ -82,8 +82,10 @@ main p{
     display: none;
 }
 .repo h2{
+    height: 120px;
     font-size: 26px;
     color: blueviolet;
+    overflow-y: hidden;
 }
 .star-fork-container{
     display: flex;
@@ -91,4 +93,19 @@ main p{
     width: 100%;
     justify-content: space-between;
     color: blueviolet;
+}
+a{
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid white;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 10px 0;
+}
+a:hover{
+    background-color: blueviolet;
 }
