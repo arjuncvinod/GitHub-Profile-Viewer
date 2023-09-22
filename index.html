@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/eabac940d1.js" crossorigin="anonymous"></script>
+</head>
+<body onload="fetchdata(event)">
+
+    <main>
+        <form action="" onsubmit="fetchdata(event)">
+        <input type="text" id="textbox" placeholder="Enter your GitHub Username">
+        </form>
+        <div class="img-container">
+        <img alt="" id="img">
+    </div>
+        <h1 id="name">Invalid Username</h1>
+        <p id="bio"></p>
+        <p ><span id="followers">0</span> followers</p>
+        <div class="repo-container">
+            <h2>Repositories</h2>
+            <div class="repos" id="repos">
+                
+            </div>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
