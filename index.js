@@ -36,6 +36,7 @@ fetch(`https://api.github.com/users/${username}/repos`)
                     <h3 ><i class="fa-regular fa-star"></i> ${repo.stargazers_count} </h3>
                     <h3><i class="fa-solid fa-code-fork"></i> ${repo.forks_count}</h3>
                 </div>
+                <a href="https://github.com/${username}/${repo.name}">View on Github</a>
                 </div>`;
                 
             repos.appendChild(repoCard);
